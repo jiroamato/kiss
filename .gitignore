@@ -1,0 +1,11 @@
+# Research kept locally, not part of the skill
+docs/screenshots/
+docs/sources/
+docs/transcripts/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+
+# Superseded skill versions, kept for reference only
+docs/archive/
