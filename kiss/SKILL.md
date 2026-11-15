@@ -14,7 +14,7 @@ KISS lives in the same skills directory as pstack and links its skills as siblin
 
 ## Assess
 
-KISS is read-only. It writes `.kiss/assessment.md` and changes nothing else. Read [`references/principles.md`](references/principles.md), then follow [`references/assess.md`](references/assess.md).
+KISS is read-only. It writes `.kiss/assessment.md`, git-ignored by its own `.kiss/.gitignore`, and changes nothing else. Read [`references/principles.md`](references/principles.md), then follow [`references/assess.md`](references/assess.md).
 
 pstack skills used while assessing:
 

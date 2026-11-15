@@ -1,10 +1,10 @@
 # Assess
 
-Produce `.kiss/assessment.md`. Read-only. Every finding has `path:line` evidence, a read-only command and its output, or for an absence, the location searched. Assess the committed HEAD of the current branch, and list uncommitted changes under Not checked.
+Produce `.kiss/assessment.md`, plus `.kiss/.gitignore` holding `*` so git ignores the folder without a change to any repo file. Read-only. Every finding has `path:line` evidence, a read-only command and its output, or for an absence, the location searched. Assess the committed HEAD of the current branch, and list uncommitted changes under Not checked.
 
 When the target is a folder inside a larger repository, say which one you assessed, put `.kiss/` at that folder's root, and scope git history to that path. When that history is a bulk import, widen to the git root and say so.
 
-If `.kiss/assessment.md` already exists, read it first. The new report replaces it. Tell the operator to commit it, or to keep a copy if `.kiss/` is ignored. Each finding carries a stable id, `<rule, anti-pattern id, guardrail-gap, or verification-gap>:<path or slug>`. Keep the previous id when the evidence moves or the label narrows. Mark each finding new, unchanged, or reopened (resolved before, back now). Previous findings that no longer hold go under Resolved, and those now out of scope under Not checked.
+If `.kiss/assessment.md` already exists, read it first. The new report replaces it. Each finding carries a stable id, `<rule, anti-pattern id, guardrail-gap, or verification-gap>:<path or slug>`. Keep the previous id when the evidence moves or the label narrows. Mark each finding new, unchanged, or reopened (resolved before, back now). Previous findings that no longer hold go under Resolved, and those now out of scope under Not checked.
 
 ## Before the questions
 

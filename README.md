@@ -14,7 +14,7 @@ Dune is closed source and Electron-specific. KISS takes its ideas, drops the Ele
 
 ## The skill
 
-`/kiss` reads a repo and writes `.kiss/assessment.md`: the repo's shape as a noun table, what is already right, what to improve ranked in the order it should land, and what to leave alone and why. It changes nothing else.
+`/kiss` reads a repo and writes a git-ignored `.kiss/assessment.md`: the repo's shape as a noun table, what is already right, what to improve ranked in the order it should land, and what to leave alone and why. It changes nothing else.
 
 | File | Holds |
 | --- | --- |
